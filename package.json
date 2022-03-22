@@ -1,0 +1,31 @@
+{
+  "name": "ban-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "start-storybook",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@storybook/addon-controls": "^6.4.19",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@storybook/react": "^6.4.19",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "node-sass": "^7.0.1",
+    "path": "^0.12.7",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
